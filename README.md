@@ -1,4 +1,4 @@
-# Dagaitem Service
+# base project Service
 
 A Spring Boot REST API service for managing products, accounts, and e-commerce operations with JWT authentication.
 
@@ -36,11 +36,11 @@ A Spring Boot REST API service for managing products, accounts, and e-commerce o
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd dagaitem
+   cd base project
    ```
 
 2. **Database Setup**
-   - Create PostgreSQL database named `dagaitem-db`
+   - Create PostgreSQL database named `base project-db`
    - Update database credentials in `application.yaml` if needed
 
 3. **Configuration**
@@ -78,7 +78,7 @@ Once the application is running, access the API documentation at:
 ## Project Structure
 
 ```
-src/main/java/com/poliymorf/dagaitem/
+src/main/java/com/poliymorf/base project/
 ├── config/          # Security and application configuration
 ├── controller/      # REST controllers (admin, user, guest)
 ├── data/           # DTOs, entities, enums, and constants
@@ -105,7 +105,7 @@ application:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/dagaitem-db
+    url: jdbc:postgresql://localhost:5432/base project-db
     username: your-username
     password: your-password
 ```
